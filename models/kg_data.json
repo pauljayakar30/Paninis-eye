@@ -1,0 +1,19 @@
+{
+  "sutras": {
+    "6.1.87": {
+      "text": "आद्गुणः",
+      "description": "The vowels a, i, u are replaced by their corresponding guṇa vowels",
+      "examples": [
+        "अ + इ = ए",
+        "अ + उ = ओ"
+      ]
+    },
+    "6.1.101": {
+      "text": "अकः सवर्णे दीर्घः",
+      "description": "When a vowel is followed by a similar vowel, they combine to form the long vowel",
+      "examples": [
+        "राम + आगच्छति = रामागच्छति"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+# PaniniT5 Training Configuration
+
+model:
+  base_model: "google/mt5-large"
+  kg_vocab_size: 2000
+  max_input_length: 512
+  max_output_length: 256
+  
+  # Intelligent AI Features
+  enable_multimodal: true
+  enable_uncertainty: true
+  enable_meta_learning: true
+  enable_episodic_memory: true
+  
+  # Advanced Architecture
+  num_attention_heads: 16
+  hidden_dropout: 0.1
+  attention_dropout: 0.1
+  
+  # Memory and Context
+  episodic_memory_size: 1000
+  context_window_size: 10
+  
+  # Uncertainty Configuration
+  mc_dropout_samples: 10
+  uncertainty_threshold: 0.3
+
+data:
+  train_path: "data/synthetic/synthetic_dataset.json"
+  val_path: "data/synthetic/synthetic_dataset.json"  # Use same for demo
+  
+training:
+  batch_size: 8
+  num_epochs: 10
+  learning_rate: 3e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+  save_every: 2
+  output_dir: "models/panini_t5"
+  num_workers: 2
+  
+  # Multi-task loss weights
+  recon_weight: 1.0
+  trans_weight: 1.0
+  morph_weight: 0.5
+  kg_weight: 0.5
+
+optimization:
+  optimizer: "adamw"
+  scheduler: "linear"
+  gradient_clipping: 1.0
+  fp16: true
+
+wandb:
+  enabled: false
+  project: "sanskrit-reconstruction"
+  run_name: "panini_t5_synthetic"
+
+evaluation:
+  eval_every: 1
+  metrics: ["bleu", "exact_match", "kg_compliance", "uncertainty_calibration", "adaptation_speed"]
+  
+  # Intelligent Evaluation
+  uncertainty_evaluation: true
+  few_shot_evaluation: true
+  cross_manuscript_evaluation: true
+  
+  # Confidence Calibration
+  calibration_temperature: 1.0
+  calibration_bins: 10

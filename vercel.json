@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd src/frontend/react-app && npm ci && npm run build",
+  "outputDirectory": "src/frontend/react-app/build",
+  "installCommand": "npm install --prefix src/frontend/react-app",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -4,9 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
+*.pyc
 build/
 develop-eggs/
 dist/
@@ -22,51 +20,98 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual environments
 venv/
 ENV/
 env/
+.venv/
 
-# IDEs
+# IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+*.code-workspace
 
 # Logs
 logs/
 *.log
+*.log.*
 
-# Data
+# Data files (do not commit uploads or processed data)
 data/uploads/
 data/processed/
 data/synthetic/
 models/panini_t5/
+models/*.pt
+models/*.pth
+models/*.h5
 
-# Node
+# Node and Frontend
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
 # React build
 src/frontend/react-app/build/
+src/frontend/react-app/.env.local
 
-# Environment variables
+# Environment variables (never commit these!)
 .env
 .env.local
+.env.development
 .env.development.local
 .env.test.local
+.env.production
 .env.production.local
 
-# OS
+# Operating System
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-*.bak
+desktop.ini
 
-# Secrets
+# Secrets and Keys (critical - never commit!)
 *.key
 *.pem
+*.p12
+*.pfx
 secrets/
+credentials/
+
+# Test files
+pytest_cache/
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/

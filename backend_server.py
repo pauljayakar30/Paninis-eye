@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-Sanskrit Manuscript Reconstruction Portal - Backend Server
+Sanskrit Manuscript Reconstruction Portal - Backend API Server
 
-This is the main FastAPI backend server that handles:
-- Image upload and OCR processing
-- Gemini AI integration for text restoration and translation
-- WebSocket connections for real-time updates
-- Multilingual translation services
-- AI assistant chat functionality
+Main FastAPI backend providing:
+- Image upload and OCR processing for manuscript digitization
+- Google Gemini AI integration for intelligent text restoration
+- WebSocket connections for real-time progress updates
+- Multilingual translation (Sanskrit, Hindi, Telugu, Tamil, English)
+- AI-powered Sanskrit grammar assistant
+- Export functionality for restored manuscripts
 
-Built during hackathon - production deployment requires additional security measures.
+Architecture: RESTful API with WebSocket support for real-time features
+Security: Requires GOOGLE_API_KEY environment variable for Gemini API access
 """
 
 import uvicorn
@@ -33,7 +35,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Gemini API configuration
-# TODO: Move to environment variables for production
+# Load API key from environment variable for security
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "your-api-key-here")
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 

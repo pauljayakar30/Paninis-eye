@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """
-Main run script for Sanskrit Manuscript Reconstruction Portal
+Sanskrit Manuscript Reconstruction Portal - System Launcher
 
-This script helps you start the complete system with proper checks.
-It verifies prerequisites and guides you through the startup process.
+Automated startup script that verifies prerequisites and launches both
+backend and frontend services.
 
 Usage:
-    python run.py              # Start the system
+    python run.py              # Start the complete system
     python run.py --check      # Check prerequisites only
-    python run.py --help       # Show help
+    python run.py --help       # Display help information
 
-Requirements:
-    - Python 3.8+
-    - Node.js 14+
-    - npm
+System Requirements:
+    - Python 3.8 or higher
+    - Node.js 14 or higher
+    - npm package manager
 
-Built during hackathon - simplified deployment for rapid development.
+The script performs prerequisite checks, sets up necessary directories,
+and coordinates the startup of FastAPI backend and React frontend servers.
 """
 
 import os

@@ -5,7 +5,12 @@ All notable changes to the Sanskrit Manuscript Reconstruction Portal will be doc
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.0] - 2025-10-26 - Hackathon Release
+## [0.1.0] - 2025-10-30 - Samartha 2025 Hackathon Release
+
+**Team CodeStorm:**
+- Yamasani Srinivas Reddy
+- Chitturi Varshith
+- Vasu Paul Jayakar
 
 ### ✨ Added - Core Features
 

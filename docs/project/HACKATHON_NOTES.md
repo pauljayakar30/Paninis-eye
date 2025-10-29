@@ -1,8 +1,19 @@
 # Hackathon Notes & Development Status
 
+## 🏆 Samartha 2025 Hackathon - Team CodeStorm
+
+**Team Members:**
+- Yamasani Srinivas Reddy
+- Chitturi Varshith
+- Vasu Paul Jayakar
+
+**Event:** Samartha 2025  
+**Team Name:** CodeStorm  
+**Project:** Sanskrit Manuscript Reconstruction Portal
+
 ## 🏆 What We Achieved
 
-This project was built during a hackathon with significant time pressure. Here's what we accomplished:
+This project was built during the Samartha 2025 hackathon with significant time pressure. Here's what we accomplished:
 
 ### ✅ Fully Working
 1. **Google Gemini AI Integration**

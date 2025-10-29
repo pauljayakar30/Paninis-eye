@@ -1,8 +1,8 @@
-# Sanskrit Manuscript Reconstruction Portal (SMRP)# Sanskrit Manuscript Reconstruction Portal (SMRP)
+# Sanskrit Manuscript Reconstruction Portal (SMRP)
 
+> 🏆 **Samartha 2025 Hackathon Project** - Team CodeStorm
 
-
-> 🏆 **Hackathon Project** - Built with passion under time constraintsAn **Intelligent Generative AI Solution** for reconstructing damaged Sanskrit manuscripts using advanced transformer models, multi-modal understanding, Paninian grammar constraints, and contextual learning with an Intelligent Manuscript Assistant (IMA).
+An **Intelligent Generative AI Solution** for reconstructing damaged Sanskrit manuscripts using advanced transformer models, multi-modal understanding, Paninian grammar constraints, and contextual learning with an Intelligent Manuscript Assistant (IMA).
 
 
 
@@ -622,5 +622,15 @@ python demo_workflow.py
 ✅ **Professional Export**: High-quality PDF generation  
 ✅ **Robust Error Handling**: Graceful failure recovery  
 ✅ **Production Ready**: Fully tested and operational  
+
+## 👥 Team CodeStorm
+
+**Samartha 2025 Hackathon**
+
+- **Yamasani Srinivas Reddy** - Team Member
+- **Chitturi Varshith** - Team Member  
+- **Vasu Paul Jayakar** - Team Member
+
+Built with dedication to preserving ancient wisdom through modern AI technology.  
 
 **🏛️ Ready to restore ancient wisdom with cutting-edge AI! ✨**

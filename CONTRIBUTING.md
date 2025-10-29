@@ -1,6 +1,13 @@
 # Contributing to Sanskrit Manuscript Reconstruction Portal
 
+> Built by **Team CodeStorm** at Samartha 2025 Hackathon
+
 Thank you for your interest in contributing to this project! This hackathon prototype has significant room for improvement and expansion.
+
+## 👥 Original Team
+- Yamasani Srinivas Reddy
+- Chitturi Varshith
+- Vasu Paul Jayakar
 
 ## 🚀 Getting Started
 

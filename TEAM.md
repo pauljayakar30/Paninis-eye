@@ -10,15 +10,12 @@
 
 ### Yamasani Srinivas Reddy
 - Team Member
-- Contributed to: [Add specific contributions]
 
 ### Chitturi Varshith
 - Team Member
-- Contributed to: [Add specific contributions]
 
 ### Vasu Paul Jayakar
 - Team Member
-- Contributed to: [Add specific contributions]
 
 ## 🎯 Project Vision
 
